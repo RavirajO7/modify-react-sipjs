@@ -1,0 +1,46 @@
+{
+  "name": "modify-react-sipjs",
+  "version": "0.0.7",
+  "description": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 --> <a name=\"readme-top\"></a> <!-- *** Thanks for checking out the Best-README-Template. If you have a suggestion *** that would make this better, please fork the repo and create a pull request *** or simply open an issue with the tag \"enhancement\". *** Don't forget to give the project a star! *** Thanks again! Now go create something AMAZING! :D -->",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "keywords": [
+    "react",
+    "sipjs",
+    "sip",
+    "webrtc",
+    "voip",
+    "call"
+  ],
+  "author": "ravi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.23",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "sip.js": "^0.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavirajO7/modify-react-sipjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RavirajO7/modify-react-sipjs/issues"
+  },
+  "homepage": "https://github.com/RavirajO7/modify-react-sipjs#readme"
+}
