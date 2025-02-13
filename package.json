@@ -1,6 +1,6 @@
 {
   "name": "modify-react-sipjs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This is Just a sipjs wrapper for react in this you will able to create 6 channel at the same time also video element is not present so that you will not see extra space for video",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
