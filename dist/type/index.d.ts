@@ -4,7 +4,6 @@ export interface SIPProviderOptions {
     webSocketServer: string;
     domain: string;
     refAudioRemote?: HTMLAudioElement;
-    refVideoRemote?: HTMLVideoElement;
 }
 export declare enum CONNECT_STATUS {
     WAIT_REQUEST_CONNECT = "WAIT_REQUEST_CONNECT",

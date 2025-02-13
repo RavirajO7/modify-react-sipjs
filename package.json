@@ -1,7 +1,7 @@
 {
   "name": "modify-react-sipjs",
   "version": "0.0.7",
-  "description": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 --> <a name=\"readme-top\"></a> <!-- *** Thanks for checking out the Best-README-Template. If you have a suggestion *** that would make this better, please fork the repo and create a pull request *** or simply open an issue with the tag \"enhancement\". *** Don't forget to give the project a star! *** Thanks again! Now go create something AMAZING! :D -->",
+  "description": "This is Just a sipjs wrapper for react in this you will able to create 6 channel at the same time also video element is not present so that you will not see extra space for video",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
