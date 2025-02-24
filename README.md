@@ -23,26 +23,6 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/vanbui1995/react-sipjs">
-    <img src="https://sipjs.com/shared/img/logo.png">
-  </a>
-
-  <h3 align="center">React SIP.js Client</h3>
-
-  <p align="center">
-    React components for <a href="https://sipjs.com">SIP.js</a>.
-    <br />
-    <a href="https://github.com/vanbui1995/react-sipjs/tree/main/examples/full-example">View Demo</a>
-    ·
-    <a href="https://github.com/vanbui1995/react-sipjs/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/vanbui1995/react-sipjs/issues">Request Feature</a>
-  </p>
-</div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -61,6 +41,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#new-changes">New Changes</a></li>
   </ol>
 </details>
 
@@ -72,6 +53,10 @@
 [Image here]
 
 The library provide the react components, almost of components are React Hook, it provides easy way to build the sessions, perform actions on SIP calls
+
+## New Chnages
+
+This library is updated version of react-sipjs for generatin multiple channels at the same time previously it was support only max 3
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -223,9 +208,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Van Bui - btvan1995@gmail.com
+Ravi Raj - raviraj0884@gmail.com
 
-Project Link: [https://github.com/vanbui1995/react-sipjs](https://github.com/vanbui1995/react-sipjs)
+Project Link: [https://github.com/RavirajO7/modify-react-sipjs](https://github.com/RavirajO7/modify-react-sipjs)
+
+## Credit
+
+Van Bui - btvan1995@gmail.com
 
 
 
