@@ -39,7 +39,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#new-changes">New Changes</a></li>
   </ol>
@@ -56,7 +55,7 @@ The library provide the react components, almost of components are React Hook, i
 
 ## New Chnages
 
-This library is updated version of react-sipjs for generatin multiple channels at the same time previously it was support only max 3
+This library is updated version of modify-react-sipjs for generatin multiple channels at the same time previously it was support only max 3
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -69,8 +68,8 @@ To get a local copy up and running follow these simple example steps.
 
 Install via npm or yarn
 
-`yarn add react-sipjs`
-`npm install react-sipjs`
+`yarn add modify-react-sipjs`
+`npm install modify-react-sipjs`
 
 
 <!-- USAGE EXAMPLES -->
@@ -78,7 +77,7 @@ Install via npm or yarn
 
 1. Import and use the `SIPProvider` on our root application:
 ```js
-import { SIPProvider } from "react-sipjs";
+import { SIPProvider } from "modify-react-sipjs";
 
 function App() {
   return (
@@ -101,7 +100,7 @@ function App() {
 2. Use `useSIPProvider` at the hook to get `connectAndRegister` method to connect & register with SIP account
 ```js
 
-import { useSIPProvider } from "react-sipjs";
+import { useSIPProvider } from "modify-react-sipjs";
 
 export const CallCenter = () => {
   const [username, setUsername] = useState<string>("test8");
@@ -186,21 +185,6 @@ export const CallSessionItem = (props: { sessionId: string }) => {
 }
 ```
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 <!-- LICENSE -->
 ## License
 
@@ -210,7 +194,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Ravi Raj - raviraj0884@gmail.com
 
-Project Link: [https://github.com/RavirajO7/modify-react-sipjs](https://github.com/RavirajO7/modify-react-sipjs)
+Project Link: [https://github.com/RavirajO7/modify-modify-react-sipjs](https://github.com/RavirajO7/modify-modify-react-sipjs)
 
 ## Credit
 

@@ -4362,9 +4362,9 @@ class At {
       case q.warn:
         console.warn(s);
         break;
-      case q.log:
-        console.log(s);
-        break;
+      // case q.log:
+      //   console.log(s);
+      //   break;
       case q.debug:
         console.debug(s);
         break;
