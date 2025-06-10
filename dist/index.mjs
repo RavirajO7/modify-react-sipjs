@@ -9150,7 +9150,7 @@ class Be {
     }
     this.logger = this.userAgent.getLogger("sip.SessionManager"), window.addEventListener("online", () => {
       this.logger.log("Online"), this.shouldBeConnected && this.connect();
-    }), this.options.autoStop && window.addEventListener("beforeunload", async () => {
+    }), this.options.autoStop && window.addEventListener("pagehide", async () => {
       this.shouldBeConnected = !1, this.shouldBeRegistered = !1, this.userAgent.state !== P.Stopped && await this.userAgent.stop();
     });
   }
